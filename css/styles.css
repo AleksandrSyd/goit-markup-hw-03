@@ -1,0 +1,252 @@
+:root {
+    --primary-text-color: #757575;
+    --text-title-color: #212121;
+    --secretion-color: #2196F3;
+    --second-background: #F5F4FA;
+    --hero-color: #FFFFFF;
+    --background-hero: #2F303A;
+    --logo-color: #000000;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+.header {
+    background-color: var(--hero-color);
+}
+/* logo */
+.logo {
+    color: var(--secretion-color);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
+
+
+.bg-logo {
+    color: var(--logo-color);
+}
+.logo:focus
+.logo:hover {
+    color: var(--text-title-color);  
+}
+.bg-logo.footer {
+    color: var(--hero-color);
+}
+
+
+/* header */
+
+.header-menu .menu {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--text-title-color);
+        text-decoration: none;
+}
+.header-menu .menu:focus,
+.header-menu .menu:hover {
+        color: var(--secretion-color);
+}
+
+.header-menu .current {
+    color: var(--secretion-color);
+}
+
+
+.social-link .link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+        text-decoration: none;
+}
+.social-link .link:focus,
+.social-link .link:hover {
+     color: var(--secretion-color);
+}
+
+
+/* hero */
+.background {
+    background-color: #2F303A;
+
+}
+
+.hero {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--hero-color);
+}
+
+
+/* button hero */
+
+.button-primary {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        font-family: inherit;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--hero-color);  
+        cursor: pointer;
+
+
+}
+
+.button-primary {
+    color: var(--hero-color);
+    background-color: var(--secretion-color);
+}
+.button-primary:focus,
+.button-primary:hover {
+    color: var(--hero-color);
+    background: var(--secretion-color);
+}
+
+
+/* section benefits */
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-title-color);
+    letter-spacing: 0.03em;
+
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* Чим ми займаємося */
+
+.second-hiro {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+
+/* section comand */
+
+.command {
+    background-color: var(--second-background);
+}
+
+.command-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-title-color);
+    letter-spacing: 0.03em;
+}
+
+.command-text {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+
+/* section portfolio */
+
+
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+}
+
+.button {
+    background-color: var(--second-background);
+}
+
+.button:focus,
+.button:hover {
+    color: var(--hero-color);
+    background: var(--secretion-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    color: var(--text-title-color);
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+    
+
+}
+
+.address {
+    color: var(--hero-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+.address:hover {
+    color: var(--secretion-color);
+}
+
+.footer-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+
+.footer-link:focus,
+.footer-link:hover {
+         color: var(--secretion-color);
+}
