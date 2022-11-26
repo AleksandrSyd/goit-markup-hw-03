@@ -148,7 +148,7 @@ p {
    max-width: 1600px;
     background-color: #2F303A;
     text-align: center;   
-    
+    margin: 0;
 }
 
 .main-hiro {
@@ -268,9 +268,6 @@ margin-bottom: 0;
     border-radius: 0px 0px 4px 4px;
 }
 
-.photo {
-    margin-bottom: 30px;
-}
 
 .command-title {
     font-weight: 500;
@@ -288,7 +285,10 @@ margin-bottom: 0;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     text-align: center;
-    margin-bottom: 30px;
+}
+
+.comand-info {
+    padding: 30px;
 }
 
 
@@ -357,8 +357,8 @@ margin-bottom: 0;
     margin-bottom: 0;
 } */
 
-.portfolio-img {
-    margin-bottom: 20px;
+.portfolio-info {
+    padding: 20px;
     display: inline-block;
 }
 
@@ -378,10 +378,11 @@ margin-bottom: 0;
     line-height: 1.88;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
     margin-left: 24px;
       
 }
+
+
 
 /* footer */
 
